@@ -1,0 +1,76 @@
+/*
+
+    Name:       Base16 Ocean Dark
+    Author:     Chris Kempson (http://chriskempson.com)
+
+    CodeMirror template adapted for IPython Notebook by Nikhil Sonnad (https://github.com/nsonnad/base16-ipython-notebook)
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* Uncomment to use a custom font
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+  font-family: 'Custom Font Name', monospace !important;
+}
+*/
+
+/* GLOBALS */
+body {
+  background-color: #2b303b;
+}
+a {color: #8fa1b3;}
+
+
+.reveal {
+  font-size: 200%;
+}
+
+li.level1 {
+  padding: 0.45em 0em 0.13em 2%;
+  font-size: 1.1em;
+  line-height: 1.15em
+}
+
+li.level2 {
+  padding: 0.2em 0em 0.06em 8%;
+  font-size: 0.9em;
+  line-height: 1.2em
+}
+
+span.citation {
+  /*float: middle;*/
+  font-size: 0.8em;
+  clear: left;
+}
+
+blockquote.bq {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 0.7em;
+  line-height: 1.1em;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+/*blockquote.bq:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
+
+blockquote.bq p {
+  display: inline;
+}
+
+div.output_area {
+  font-size: 0.75em;
+}
+
+img.float-right {
+  float: right;
+}
