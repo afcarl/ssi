@@ -38,6 +38,12 @@ li.level2 {
   line-height: 1.2em
 }
 
+li.level3 {
+  padding: 0.2em 0em 0.06em 14%;
+  font-size: 0.75em;
+  line-height: 1.2em 
+}
+
 span.citation {
   /*float: middle;*/
   font-size: 0.8em;
